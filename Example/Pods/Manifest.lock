@@ -1,0 +1,14 @@
+PODS:
+  - SBRProjectBase (0.1.0)
+
+DEPENDENCIES:
+  - SBRProjectBase (from `../`)
+
+EXTERNAL SOURCES:
+  SBRProjectBase:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SBRProjectBase: 8a9a9356d31d96009f582a016808811feeaa3c36
+
+COCOAPODS: 0.39.0

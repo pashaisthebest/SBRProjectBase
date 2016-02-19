@@ -1,0 +1,6 @@
+framework module Pods_SBRProjectBase_Example {
+  umbrella header "Pods-SBRProjectBase_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

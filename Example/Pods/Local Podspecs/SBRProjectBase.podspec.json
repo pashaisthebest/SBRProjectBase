@@ -1,0 +1,25 @@
+{
+  "name": "SBRProjectBase",
+  "version": "0.1.0",
+  "summary": "A short description of SBRProjectBase.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SBRProjectBase",
+  "license": "MIT",
+  "authors": {
+    "Pavel Gurov": "pashaisthebest@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SBRProjectBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "SBRProjectBase": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
