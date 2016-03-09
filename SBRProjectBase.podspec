@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit'
-  # s.dependency 'RestKit', '~> 0.24'
+  s.frameworks = 'UIKit'
+  s.dependency 'Google/Analytics'
 
 end

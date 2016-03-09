@@ -1,9 +1,9 @@
 {
   "name": "SBRProjectBase",
   "version": "0.1.0",
-  "summary": "A short description of SBRProjectBase.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SBRProjectBase",
+  "summary": "A pod that contains several base classes and helpers to be a start for any project",
+  "description": "A pod that contains several base classes and helpers to be a start for any project",
+  "homepage": "https://github.com/pashaisthebest/SBRProjectBase",
   "license": "MIT",
   "authors": {
     "Pavel Gurov": "pashaisthebest@gmail.com"
@@ -12,6 +12,7 @@
     "git": "https://github.com/<GITHUB_USERNAME>/SBRProjectBase.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://vk.com/pashaisthebest",
   "platforms": {
     "ios": "7.0"
   },
@@ -20,6 +21,12 @@
   "resource_bundles": {
     "SBRProjectBase": [
       "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Google/Analytics": [
+
     ]
   }
 }
