@@ -13,8 +13,11 @@
 		601F16585A7D18499DC68B93421F7485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		C2E279D7F2E2E4E85C2C83F3F3EEB4A8 /* Pods-SBRProjectBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA0EF8F5783D987D8F2F3A8542BF9A /* Pods-SBRProjectBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C31D87CAA2A46B38C7A63866F45175AF /* Pods-SBRProjectBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7D1CDA9D0E155AE6CD4B5FAB203372 /* Pods-SBRProjectBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4C94C761C77568F00B136B2 /* SBRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C94C741C77568F00B136B2 /* SBRViewController.h */; };
-		C4C94C771C77568F00B136B2 /* SBRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C94C751C77568F00B136B2 /* SBRViewController.m */; };
+		C4C313191C9074E100C3B225 /* SBRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C313171C9074E100C3B225 /* SBRViewController.h */; };
+		C4C3131A1C9074E100C3B225 /* SBRViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C313171C9074E100C3B225 /* SBRViewController.h */; };
+		C4C3131B1C9074E100C3B225 /* SBRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C313181C9074E100C3B225 /* SBRViewController.m */; };
+		C4C3131C1C9074E100C3B225 /* SBRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C313181C9074E100C3B225 /* SBRViewController.m */; };
+		C4C3131D1C9074E100C3B225 /* SBRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4C313181C9074E100C3B225 /* SBRViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,8 +92,8 @@
 		C1629928163B288B96675F0CC739043F /* libGTM_NSScannerJSON.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSScannerJSON.a; path = Libraries/libGTM_NSScannerJSON.a; sourceTree = "<group>"; };
 		C2C63FFE926F8BA6069CAFCFB4A19225 /* Pods-SBRProjectBase_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SBRProjectBase_Example-resources.sh"; sourceTree = "<group>"; };
 		C4AEB9BCDFC6BA579A349C30F3468B10 /* libGTM_Regex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_Regex.a; path = Libraries/libGTM_Regex.a; sourceTree = "<group>"; };
-		C4C94C741C77568F00B136B2 /* SBRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBRViewController.h; sourceTree = "<group>"; };
-		C4C94C751C77568F00B136B2 /* SBRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBRViewController.m; sourceTree = "<group>"; };
+		C4C313171C9074E100C3B225 /* SBRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBRViewController.h; path = Pod/Classes/SBRViewController.h; sourceTree = "<group>"; };
+		C4C313181C9074E100C3B225 /* SBRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBRViewController.m; path = Pod/Classes/SBRViewController.m; sourceTree = "<group>"; };
 		C732E516F3B18FC07005BC95EF1EAD17 /* CloudMessaging-Module.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CloudMessaging-Module.h"; path = "Headers/ModuleHeaders/CloudMessaging-Module.h"; sourceTree = "<group>"; };
 		C76A503FB153DC7E92B0B06BB6E6C559 /* libGTMStackTrace.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMStackTrace.a; path = Libraries/libGTMStackTrace.a; sourceTree = "<group>"; };
 		C775CA5DC22AB29E1FBED00C78CF18EE /* Pods-SBRProjectBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SBRProjectBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -205,8 +208,8 @@
 		668B2CCF987D764B86F549BB44D2F55B /* SBRProjectBase */ = {
 			isa = PBXGroup;
 			children = (
-				C4C94C741C77568F00B136B2 /* SBRViewController.h */,
-				C4C94C751C77568F00B136B2 /* SBRViewController.m */,
+				C4C313171C9074E100C3B225 /* SBRViewController.h */,
+				C4C313181C9074E100C3B225 /* SBRViewController.m */,
 			);
 			name = SBRProjectBase;
 			path = ../..;
@@ -421,7 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C31D87CAA2A46B38C7A63866F45175AF /* Pods-SBRProjectBase_Example-umbrella.h in Headers */,
-				C4C94C761C77568F00B136B2 /* SBRViewController.h in Headers */,
+				C4C313191C9074E100C3B225 /* SBRViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E279D7F2E2E4E85C2C83F3F3EEB4A8 /* Pods-SBRProjectBase_Tests-umbrella.h in Headers */,
+				C4C3131A1C9074E100C3B225 /* SBRViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +536,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C94C771C77568F00B136B2 /* SBRViewController.m in Sources */,
+				C4C3131B1C9074E100C3B225 /* SBRViewController.m in Sources */,
 				4215EA47C4FB614EDC8702A3BCE5451D /* Pods-SBRProjectBase_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C3131C1C9074E100C3B225 /* SBRViewController.m in Sources */,
 				117647EAC3ABD4D44DE893BF78839868 /* Pods-SBRProjectBase_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,6 +554,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4C3131D1C9074E100C3B225 /* SBRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

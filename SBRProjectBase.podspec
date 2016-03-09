@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SBRProjectBase"
-  s.version          = "0.1.0"
+  s.version          = "0.1.2"
   s.summary          = "A pod that contains several base classes and helpers to be a start for any project"
 
 # This description is used to generate tags and improve search results.
@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = "A pod that contains several base classes and helpers to be a start for any project"
+  s.description      = "A pod that contains several base classes and helpers to be a start for any project. description"
 
   s.homepage         = "https://github.com/pashaisthebest/SBRProjectBase"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Pavel Gurov" => "pashaisthebest@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SBRProjectBase.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/pashaisthebest/SBRProjectBase", :tag => s.version.to_s }
   s.social_media_url = 'https://vk.com/pashaisthebest'
 
   s.platform     = :ios, '7.0'
