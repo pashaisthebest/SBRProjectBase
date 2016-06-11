@@ -36,10 +36,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
   s.dependency 'Google/Analytics'
-  s.dependency 'RestKit'
   s.dependency 'Reachability'
-  s.dependency 'JDStatusBarNotification'
-  s.dependency 'Fabric'
-  s.dependency 'Crashlytics'
-  s.dependency 'SDWebImage'
 end

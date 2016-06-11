@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GAITrackedViewController.h"
+#import <GoogleAnalytics/GAITrackedViewController.h>
 
 @interface SBRViewController : GAITrackedViewController
 

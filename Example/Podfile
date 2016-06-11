@@ -1,11 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'SBRProjectBase_Example', :exclusive => true do
+target 'SBRProjectBase_Example' do
   pod 'SBRProjectBase', :path => '../'
-end
-
-target 'SBRProjectBase_Tests', :exclusive => true do
-  pod 'SBRProjectBase', :path => '../'
-
-  
 end
