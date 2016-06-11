@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (SBRExtensions)
+@interface UIView (SBR)
 
 + (NSString *)nibName;
 + (NSString *)reuseIdentifier;

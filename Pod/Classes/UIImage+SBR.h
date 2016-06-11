@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (SBRExtensions)
+@interface UIImage (SBR)
 
 - (UIImage *)fixOrientation;
 + (UIImage*)imageWithImage:(UIImage*)image scaledTo:(CGFloat)sideSize;

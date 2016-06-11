@@ -6,9 +6,9 @@
 //
 //
 
-#import "NSMutableDictionary+SBRExtensions.h"
+#import "NSMutableDictionary+SBR.h"
 
-@implementation NSMutableDictionary (SBRExtensions)
+@implementation NSMutableDictionary (SBR)
 
 - (void)safeSetObject:(id)object forKey:(id)key {
     if (object && key) {

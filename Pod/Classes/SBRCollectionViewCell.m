@@ -7,7 +7,7 @@
 //
 
 #import "SBRCollectionViewCell.h"
-#import "UIView+SBRExtensions.h"
+#import "UIView+SBR.h"
 
 @implementation SBRCollectionViewCell
 

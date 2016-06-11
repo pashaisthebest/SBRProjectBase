@@ -7,7 +7,7 @@
 //
 
 #import "SBRTableViewCell.h"
-#import "UIView+SBRExtensions.h"
+#import "UIView+SBR.h"
 
 @implementation SBRTableViewCell
 

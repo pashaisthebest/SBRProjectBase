@@ -16,6 +16,7 @@
 - (void)appBecameActive;
 - (void)networkStatusChanged:(NSNotification *)notification;
 
+@property (nonatomic) BOOL hidesNavBar;
 @property (nonatomic) BOOL locksInteractivePopGestureRecognizer;
 
 @property (strong, nonatomic) IBOutletCollection(NSLayoutConstraint) NSArray *flexibleConstraints;

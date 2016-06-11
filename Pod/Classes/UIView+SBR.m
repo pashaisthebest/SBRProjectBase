@@ -6,9 +6,9 @@
 //
 //
 
-#import "UIView+SBRExtensions.h"
+#import "UIView+SBR.h"
 
-@implementation UIView (SBRExtensions)
+@implementation UIView (SBR)
 
 + (NSString *)nibName {
     return [NSString stringWithFormat:@"%@", [self class]];

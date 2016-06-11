@@ -6,9 +6,9 @@
 //
 //
 
-#import "UIImage+SBRExtensions.h"
+#import "UIImage+SBR.h"
 
-@implementation UIImage (SBRExtensions)
+@implementation UIImage (SBR)
 
 - (UIImage *)fixOrientation {
     // No-op if the orientation is already correct

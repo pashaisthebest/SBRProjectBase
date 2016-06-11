@@ -35,10 +35,7 @@
        didShowViewController:(UIViewController *)viewController
                     animated:(BOOL)animate {
     
-    if ([viewController isKindOfClass:[SBRViewController class]] &&
-        [(SBRViewController *)viewController locksInteractivePopGestureRecognizer]) {
-        self.interactivePopGestureRecognizer.enabled = NO;
-    } else if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)] && self.viewControllers.count>1) {
+    if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)] && self.viewControllers.count>1) {
         self.interactivePopGestureRecognizer.enabled = YES;
     } else {
         self.interactivePopGestureRecognizer.enabled = NO;
@@ -46,12 +43,25 @@
     }
 }
 
+- (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    if ([viewController isKindOfClass:[SBRViewController class]] && [(SBRViewController *)viewController hidesNavBar]) {
+        [self setNavigationBarHidden:YES animated:animated];
+    } else {
+        [self setNavigationBarHidden:NO animated:animated];
+    }
+}
+
 - (BOOL)gestureRecognizerShouldBegin:(UIGestureRecognizer *)gestureRecognizer {
     if ([self.topViewController isKindOfClass:[SBRViewController class]] &&
         [(SBRViewController *)self.topViewController locksInteractivePopGestureRecognizer]) {
         return NO;
+    } else if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)] && self.viewControllers.count>1) {
+        return YES;
+    } else {
+        [self.navigationBar setNeedsLayout];
+        return NO;
     }
-    return YES;
 }
+
 
 @end

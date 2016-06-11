@@ -8,12 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (SBRExtensions)
+@interface NSString (SBR)
 
 - (BOOL)isValid;
 - (BOOL)isValidEmail;
 - (NSString *)normilizedPhoneString;
 - (NSString *)capitilizedFirstLetterString;
 + (NSString *)UUIDstring;
+- (NSDictionary *)jsonDict;
 
 @end

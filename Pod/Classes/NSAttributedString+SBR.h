@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSAttributedString (SBRExtensions)
+@interface NSAttributedString (SBR)
 
 + (NSAttributedString *)attributedStringFromString:(NSString *)string
                                           withFont:(UIFont *)font

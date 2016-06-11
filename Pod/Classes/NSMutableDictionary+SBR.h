@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSMutableDictionary (SBRExtensions)
+@interface NSMutableDictionary (SBR)
 
 - (void)safeSetObject:(id)object forKey:(id)key;
 

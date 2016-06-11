@@ -6,9 +6,9 @@
 //
 //
 
-#import "NSString+SBRExtensions.h"
+#import "NSString+SBR.h"
 
-@implementation NSString (SBRExtensions)
+@implementation NSString (SBR)
 
 - (BOOL)isValid {
     return (![@"" isEqualToString:self]);
@@ -38,6 +38,20 @@
 
 + (NSString *)UUIDstring {
     return [[NSUUID UUID] UUIDString];
+}
+
+- (NSDictionary *)jsonDict {
+    NSError *jsonError;
+    NSData *objectData = [self dataUsingEncoding:NSUTF8StringEncoding];
+    if (objectData) {
+        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:objectData
+                                                             options:NSJSONReadingMutableContainers
+                                                               error:&jsonError];
+        if (!jsonError) {
+            return json;
+        }
+    }
+    return nil;
 }
 
 @end

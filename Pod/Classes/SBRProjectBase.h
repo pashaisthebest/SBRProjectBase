@@ -18,13 +18,27 @@
 #import <SBRCollectionViewCell.h>
 
 #import <RMPhoneFormat.h>
+#import <UIDevice+Hardware.h>
+#import <UIImageEffects.h>
 
 // categories
 
-#import <NSAttributedString+SBRExtensions.h>
-#import <NSMutableDictionary+SBRExtensions.h>
-#import <NSString+SBRExtensions.h>
-#import <UIImage+SBRExtensions.h>
-#import <UIView+SBRExtensions.h>
+#import <NSObject+SBR.h>
+#import <NSNumber+SBR.h>
+#import <NSDate+Utilities.h>
+
+#import <NSString+SBR.h>
+#import <NSAttributedString+SBR.h>
+
+#import <NSDictionary+SBR.h>
+#import <NSMutableDictionary+SBR.h>
+
+#import <NSArray+SBR.h>
+#import <NSMutableArray+SBR.h>
+
+#import <UIImage+SBR.h>
+#import <UIView+SBR.h>
+#import <UIColor+SBR.h>
+#import <UIApplication+SBR.h>
 
 #endif /* SBRProjectBase_h */

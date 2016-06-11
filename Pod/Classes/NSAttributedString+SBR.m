@@ -6,9 +6,9 @@
 //
 //
 
-#import "NSAttributedString+SBRExtensions.h"
+#import "NSAttributedString+SBR.h"
 
-@implementation NSAttributedString (SBRExtensions)
+@implementation NSAttributedString (SBR)
 
 + (NSAttributedString *)attributedStringFromString:(NSString *)string
                                           withFont:(UIFont *)font
