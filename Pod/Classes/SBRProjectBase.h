@@ -19,6 +19,7 @@
 
 #import <RMPhoneFormat.h>
 #import <UIDevice+Hardware.h>
+#import <UIDevice+SBR.h>
 #import <UIImageEffects.h>
 
 // categories

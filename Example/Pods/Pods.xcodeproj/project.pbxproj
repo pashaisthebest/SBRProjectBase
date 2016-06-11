@@ -51,6 +51,8 @@
 		C4598B681D0C8D2400CB3DF2 /* NSMutableArray+SBR.m in Sources */ = {isa = PBXBuildFile; fileRef = C4598B641D0C8D2400CB3DF2 /* NSMutableArray+SBR.m */; };
 		C4598B691D0C8D2400CB3DF2 /* NSArray+SBR.h in Headers */ = {isa = PBXBuildFile; fileRef = C4598B651D0C8D2400CB3DF2 /* NSArray+SBR.h */; };
 		C4598B6A1D0C8D2400CB3DF2 /* NSArray+SBR.m in Sources */ = {isa = PBXBuildFile; fileRef = C4598B661D0C8D2400CB3DF2 /* NSArray+SBR.m */; };
+		C4598B6F1D0C979900CB3DF2 /* UIDevice+SBR.h in Headers */ = {isa = PBXBuildFile; fileRef = C4598B6D1D0C979900CB3DF2 /* UIDevice+SBR.h */; };
+		C4598B701D0C979900CB3DF2 /* UIDevice+SBR.m in Sources */ = {isa = PBXBuildFile; fileRef = C4598B6E1D0C979900CB3DF2 /* UIDevice+SBR.m */; };
 		C532BB4D4AF2ADA2780BE242F664B898 /* NSMutableDictionary+SBR.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C08AF769350DD98A81669FA27F91D /* NSMutableDictionary+SBR.m */; };
 		D837179BC2D63A30A3226462C5AF2205 /* SBRMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF9FD2DDD68BC110D842F9F798DC9B1 /* SBRMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAB23F0FF09FD93B18769BE29C33114D /* UIView+SBR.m in Sources */ = {isa = PBXBuildFile; fileRef = 01005604C9F6DC589C23E85E17CC3727 /* UIView+SBR.m */; };
@@ -186,6 +188,8 @@
 		C4598B651D0C8D2400CB3DF2 /* NSArray+SBR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SBR.h"; sourceTree = "<group>"; };
 		C4598B661D0C8D2400CB3DF2 /* NSArray+SBR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SBR.m"; sourceTree = "<group>"; };
 		C4598B6C1D0C90E000CB3DF2 /* PhoneFormats.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = PhoneFormats.dat; path = Assets/PhoneFormats.dat; sourceTree = "<group>"; };
+		C4598B6D1D0C979900CB3DF2 /* UIDevice+SBR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SBR.h"; sourceTree = "<group>"; };
+		C4598B6E1D0C979900CB3DF2 /* UIDevice+SBR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SBR.m"; sourceTree = "<group>"; };
 		C5F5138FBFFD84F16A2A49091DE46134 /* NSAttributedString+SBR.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+SBR.m"; sourceTree = "<group>"; };
 		C9AC7B31B4F4C4CD923C7E267F64F420 /* SBRViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SBRViewController.h; sourceTree = "<group>"; };
 		CD7E74A9593B00CEC22867F27FE58B9B /* libGTM_Regex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_Regex.a; path = Libraries/libGTM_Regex.a; sourceTree = "<group>"; };
@@ -524,6 +528,8 @@
 		E2F797F7857E7A3359DB97B24ECBBB47 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C4598B6D1D0C979900CB3DF2 /* UIDevice+SBR.h */,
+				C4598B6E1D0C979900CB3DF2 /* UIDevice+SBR.m */,
 				C4598B631D0C8D2400CB3DF2 /* NSMutableArray+SBR.h */,
 				C4598B641D0C8D2400CB3DF2 /* NSMutableArray+SBR.m */,
 				C4598B651D0C8D2400CB3DF2 /* NSArray+SBR.h */,
@@ -610,6 +616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47A52AA18D8A46C5B8ECFE33A8AAB1CE /* NSAttributedString+SBR.h in Headers */,
+				C4598B6F1D0C979900CB3DF2 /* UIDevice+SBR.h in Headers */,
 				B6B7668B81FAEE1EACE06C9BC36F5DD0 /* NSMutableDictionary+SBR.h in Headers */,
 				C4598B591D0C8C3600CB3DF2 /* NSNumber+SBR.h in Headers */,
 				2FB47532A9C1790CB331EE163410081D /* NSString+SBR.h in Headers */,
@@ -793,6 +800,7 @@
 				C4598B621D0C8CDA00CB3DF2 /* UIApplication+SBR.m in Sources */,
 				C4598B4A1D0C8B1100CB3DF2 /* UIImageEffects.m in Sources */,
 				1409F26DE9B8C10C4CDB8F3B48833D9C /* SBRViewController.m in Sources */,
+				C4598B701D0C979900CB3DF2 /* UIDevice+SBR.m in Sources */,
 				46EC42782FC0A9A2574C0CBF5385AE06 /* UIImage+SBR.m in Sources */,
 				C4598B521D0C8BC600CB3DF2 /* NSDictionary+SBR.m in Sources */,
 				C4598B6A1D0C8D2400CB3DF2 /* NSArray+SBR.m in Sources */,
