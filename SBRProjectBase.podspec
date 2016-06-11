@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SBRProjectBase"
-  s.version          = "0.1.6"
+  s.version          = "0.1.7"
   s.summary          = "A pod that contains several base classes and helpers to be a start for any project"
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'SBRProjectBase' => ['Pod/Assets/*.png']
+    # 'SBRProjectBase' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
