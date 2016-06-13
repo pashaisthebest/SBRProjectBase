@@ -29,7 +29,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.screenName = [NSString stringWithFormat:@"%@", [self class]];
+//    self.screenName = [NSString stringWithFormat:@"%@", [self class]];
+    
     SIGNUP_FOR_NOTIFICATION(UIKeyboardWillShowNotification, @selector(keyboardWillShow:));
     SIGNUP_FOR_NOTIFICATION(UIKeyboardWillHideNotification, @selector(keyboardWillHide:));
     

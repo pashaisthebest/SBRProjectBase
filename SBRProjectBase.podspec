@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SBRProjectBase"
-  s.version          = "0.1.10"
+  s.version          = "0.1.11"
   s.summary          = "A pod that contains several base classes and helpers to be a start for any project"
 
 # This description is used to generate tags and improve search results.
@@ -35,6 +35,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  s.dependency 'Google/Analytics'
   s.dependency 'Reachability'
 end

@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <GoogleAnalytics/GAITrackedViewController.h>
 
-@interface SBRViewController : GAITrackedViewController
+@interface SBRViewController : UIViewController
 
 - (void)methodCalledFromDealloc;
 
