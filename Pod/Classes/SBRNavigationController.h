@@ -15,4 +15,7 @@
 
 @interface SBRNavigationController : UINavigationController
 
+@property (nonatomic, copy, nullable) void (^onWillShowController)(UIViewController * _Nonnull);
+@property (nonatomic, copy, nullable) void (^onDidShowController)(UIViewController * _Nonnull);
+
 @end

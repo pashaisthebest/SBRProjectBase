@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SBRProjectBase"
-  s.version          = "0.1.12"
+  s.version          = "0.1.13"
   s.summary          = "A pod that contains several base classes and helpers to be a start for any project"
 
 # This description is used to generate tags and improve search results.

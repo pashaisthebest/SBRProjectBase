@@ -9,7 +9,7 @@
 #import "SBRNavigationController.h"
 #import <SBRViewController.h>
 
-@interface SBRNavigationController () <UINavigationControllerDelegate, UIGestureRecognizerDelegate>
+@interface SBRNavigationController () <UIGestureRecognizerDelegate, UINavigationControllerDelegate>
 
 @end
 
@@ -41,6 +41,9 @@
         self.interactivePopGestureRecognizer.enabled = NO;
         [self.navigationBar setNeedsLayout];
     }
+    if (self.onDidShowController) {
+        self.onDidShowController(viewController);
+    }
 }
 
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
@@ -48,6 +51,9 @@
         [self setNavigationBarHidden:YES animated:animated];
     } else {
         [self setNavigationBarHidden:NO animated:animated];
+    }
+    if (self.onWillShowController) {
+        self.onWillShowController(viewController);
     }
 }
 
@@ -62,6 +68,5 @@
         return NO;
     }
 }
-
 
 @end
